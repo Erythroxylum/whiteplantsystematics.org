@@ -82,3 +82,22 @@ pre { overflow-x: auto; background: var(--paper-sunk); border: 1px solid var(--r
   .stats-row, .research-grid, .image-grid, .team-grid { grid-template-columns: 1fr; }
   .member-wide { grid-column: auto; }
 }
+
+.subheader {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--ink-dim);
+  margin: -12px 0 24px;
+}
+
+.subheader a {
+  color: var(--ink-dim);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+}
+
+.subheader a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
