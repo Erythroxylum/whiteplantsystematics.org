@@ -1,0 +1,27 @@
+# Integrative Plant Systematics Lab
+
+Website: https://whiteplantsystematics.org
+PI: Dawson M. White
+Institution: Texas A&M University, Department of Ecology and Conservation Biology
+Affiliation: S.M. Tracy Herbarium
+
+The Integrative Plant Systematics Lab studies plant diversity across scales, combining fieldwork, herbarium collections, genomics, spectral phenomics, and conservation.
+
+Core research areas:
+- Integrative plant systematics
+- Herbarium collections as research infrastructure
+- Spectral phenomics and extended specimens
+- Floristics and botany-based conservation
+- Erythroxylaceae / coca
+- Dryas
+- North American grasses
+- Texas flora
+- Centinela and western Ecuador conservation
+
+Important pages:
+- /research.html
+- /herbarium.html
+- /people.html
+- /publications.html
+- /join.html
+- /resources.html

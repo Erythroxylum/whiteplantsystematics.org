@@ -1,0 +1,21 @@
+title: Integrative Plant Systematics Lab
+description: Field, herbarium, genomic, and phenomic approaches to plant diversity at Texas A&M University.
+url: https://whiteplantsystematics.org
+baseurl: ""
+og_image: https://whiteplantsystematics.org/assets/img/og-image.jpg
+
+include:
+  - llms.txt
+  - robots.txt
+  - sitemap.xml
+  - CNAME
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - node_modules/
+  - drafts/
+
+plugins: []
