@@ -101,3 +101,19 @@ pre { overflow-x: auto; background: var(--paper-sunk); border: 1px solid var(--r
   color: var(--accent);
   border-bottom-color: var(--accent);
 }
+
+.colophon,
+.colophon span,
+.colophon a {
+  color: var(--ink-dim);
+}
+
+.colophon a {
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+}
+
+.colophon a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
