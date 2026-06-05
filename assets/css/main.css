@@ -161,3 +161,47 @@ pre { overflow-x: auto; background: var(--paper-sunk); border: 1px solid var(--r
   font-size: 11px;
   line-height: 1.4;
 }
+
+.layer summary {
+  position: relative;
+  padding-left: 48px;
+}
+
+.layer summary::before {
+  content: "+";
+  position: absolute;
+  left: 18px;
+  top: 18px;
+  width: 18px;
+  height: 18px;
+  border: 1px solid var(--rule);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: var(--ink-faint);
+  font-family: var(--font-mono);
+  font-size: 13px;
+  line-height: 1;
+}
+
+.layer[open] summary::before {
+  content: "−";
+  color: var(--ink-dim);
+  border-color: var(--accent-dim);
+}
+
+.hero-figure {
+  margin: 10px 0 28px;
+}
+
+.hero-figure .hero-img {
+  margin: 0;
+}
+
+.hero-figure figcaption {
+  padding: 8px 2px 0;
+  color: var(--ink-faint);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  line-height: 1.4;
+}
