@@ -126,3 +126,38 @@ pre { overflow-x: auto; background: var(--paper-sunk); border: 1px solid var(--r
   object-position: center;
   background: var(--paper-sunk);
 }
+
+.card {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card:hover {
+  color: inherit;
+}
+
+.card h3,
+.card p,
+.card figcaption {
+  text-decoration: none;
+}
+
+.card-figure {
+  margin: 0;
+}
+
+.card-figure img {
+  width: 100%;
+  aspect-ratio: 1.45 / 1;
+  object-fit: cover;
+  display: block;
+  background: var(--paper-sunk);
+}
+
+.card-figure figcaption {
+  padding: 8px 12px 0;
+  color: var(--ink-faint);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  line-height: 1.4;
+}
