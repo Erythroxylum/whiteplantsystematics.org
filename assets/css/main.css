@@ -121,7 +121,7 @@ pre { overflow-x: auto; background: var(--paper-sunk); border: 1px solid var(--r
 .member img.profile-img {
   aspect-ratio: auto;
   width: 100%;
-  max-height: 520px;
+  max-height: 420px;
   object-fit: contain;
   object-position: center;
   background: var(--paper-sunk);
