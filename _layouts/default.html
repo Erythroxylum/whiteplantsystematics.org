@@ -10,7 +10,9 @@
   <meta property="og:description" content="{{ page.description | default: site.description }}">
   <meta property="og:image" content="{{ site.og_image }}">
   <meta name="theme-color" content="#500000">
-  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="icon" type="image/png" href="{{ '/assets/img/favicon.png' | relative_url }}">
+  <link rel="shortcut icon" type="image/png" href="{{ '/favicon.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/img/favicon.png' | relative_url }}">
   <script>
     (function() {
       const saved = localStorage.getItem('theme');
