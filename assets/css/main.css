@@ -205,3 +205,34 @@ pre { overflow-x: auto; background: var(--paper-sunk); border: 1px solid var(--r
   font-size: 11px;
   line-height: 1.4;
 }
+
+.news-list {
+  display: grid;
+  gap: 16px;
+  margin: 18px 0 34px;
+}
+
+.news-item {
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: var(--paper);
+  padding: 18px;
+}
+
+.news-item time {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--ink-faint);
+  font-family: var(--font-mono);
+  font-size: 12px;
+}
+
+.news-item h3 {
+  margin: 0 0 8px;
+  font-size: 20px;
+}
+
+.news-item p {
+  margin: 0;
+  color: var(--ink-dim);
+}
