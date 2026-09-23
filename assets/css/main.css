@@ -45,7 +45,7 @@ a:hover { color: var(--accent-strong); }
 .crumb { font-family: var(--font-mono);  font-size: 16.5px; color: var(--ink-faint); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 22px; }
 .title { font-family: var(--font-serif); font-size: clamp(34px, 5vw, 58px); line-height: 0.98; letter-spacing: -0.04em; margin: 0 0 22px; max-width: 920px; }
 .lede { font-size: clamp(19px, 2.2vw, 25px); line-height: 1.42; color: var(--ink-dim); max-width: 900px; }
-h2 { font-family: var(--font-serif); font-size: 34px; line-height: 1.15; margin: 48px 0 12px; }
+h2 { font-family: var(--font-serif); font-weight: 400; font-size: 34px; line-height: 1.15; margin: 48px 0 12px; }
 h3 { margin: 0 0 8px; font-size: 19px; line-height: 1.25; }
 p { color: var(--ink-dim); }
 .hero-img { width: 100%; aspect-ratio: 2.6 / 1; object-fit: cover; border-radius: 10px; border: 1px solid var(--rule); background: linear-gradient(135deg, var(--accent-dim), rgba(120,146,98,0.18)); margin: 10px 0 28px; }
