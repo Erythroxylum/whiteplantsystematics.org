@@ -239,17 +239,6 @@ p {
   background: var(--paper-sunk);
 }
 
-/* Specific rule for people-page profile photos */
-.member img.profile-img {
-  width: 100%;
-  height: 220px;
-  aspect-ratio: auto;
-  object-fit: cover;
-  object-position: center 20%;
-  display: block;
-  background: var(--paper-sunk);
-}
-
 .card-body,
 .m-info {
   padding: 18px;
@@ -553,6 +542,7 @@ pre {
   object-position: center top;
   display: block;
   background: var(--paper-sunk);
+  align-self: center;
 }
 
 .member-profile .m-info {
