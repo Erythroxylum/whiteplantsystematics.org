@@ -236,3 +236,10 @@ pre { overflow-x: auto; background: var(--paper-sunk); border: 1px solid var(--r
   margin: 0;
   color: var(--ink-dim);
 }
+
+.join-invitation {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
