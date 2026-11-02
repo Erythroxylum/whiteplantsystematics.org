@@ -553,7 +553,9 @@ pre {
   object-position: center 20%;
 }
 
-
+body {
+  border-top: 10px solid red !important;
+}
 
 /* Mobile */
 @media (max-width: 820px) {
