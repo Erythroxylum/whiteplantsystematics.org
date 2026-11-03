@@ -514,7 +514,9 @@ pre {
   color: var(--ink-dim);
 }
 
-/* People page */
+/* -----------------------------
+   People page
+   ----------------------------- */
 
 .team-grid {
   display: grid;
@@ -532,14 +534,15 @@ pre {
   min-width: 0;
 }
 
-/* Profile cards with photographs */
+/* Desktop profile layout:
+   photo left, text right */
 .member-profile {
   display: grid;
   grid-template-columns: 216px minmax(0, 1fr);
   grid-template-areas:
     "photo header"
     "photo bio";
-  align-items: start;
+  align-items: center;
 }
 
 .member-profile .profile-img {
@@ -548,8 +551,10 @@ pre {
   height: 264px;
   aspect-ratio: auto;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 35%;
   display: block;
+  align-self: center;
+  justify-self: center;
   background: var(--paper-sunk);
 }
 
@@ -565,6 +570,22 @@ pre {
 
 .profile-bio p {
   margin-top: 10px;
+}
+
+.m-name {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.m-role {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--green);
+  margin-bottom: 8px;
 }
 
 
@@ -591,8 +612,8 @@ pre {
     grid-column: auto;
   }
 
-  /* Mobile people profiles:
-     name/title → photo → description */
+  /* Mobile profile layout:
+     name/title -> photo -> bio */
   .member-profile {
     display: grid;
     grid-template-columns: 1fr;
@@ -600,6 +621,7 @@ pre {
       "header"
       "photo"
       "bio";
+    align-items: stretch;
   }
 
   .profile-header {
@@ -607,18 +629,21 @@ pre {
   }
 
   .member-profile .profile-img {
+    grid-area: photo;
     width: 100%;
     height: auto;
     max-height: 380px;
     object-fit: cover;
-    object-position: center top;
+    object-position: center center;
+    justify-self: stretch;
+    align-self: auto;
   }
 
   .profile-bio {
-    padding: 4px 18px 18px;
+    padding: 12px 18px 18px;
   }
 
   .profile-bio p {
-    margin-top: 10px;
+    margin-top: 0;
   }
 }
